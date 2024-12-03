@@ -1,0 +1,63 @@
+@use "globals" as *;
+
+header {
+  width: 1510px;
+  height: 78px;
+  @include respond-to-small {
+    width: 395px;
+  }
+
+  div {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-color: $color-negro;
+    justify-content: space-between;
+
+    .menu {
+      width: 60px;               
+      height: 50px;            
+      background-color: $color-botones;
+      display: flex;             
+      flex-direction: column;    
+      justify-content: space-around; 
+      align-items: center;      
+      border: 1px solid $color-border; 
+      
+  
+      .line {
+          width: 45px;          
+          height: 9px;        
+          background-color: $color-negro;
+      }
+  }
+
+    img {
+      height: 64px;
+      width: 70px;
+      margin-top: 10px;
+    }
+
+    button {
+      background-color: $color-botones;
+      width: 181px;
+      height: 50px;
+      border-color: $color-border;
+      border-width: 2px;
+      margin-bottom: 18px;
+     
+      a {
+        list-style: none;
+        text-decoration: none;
+        h4 {
+          font-family: $font-parrafos;
+          font-size: 1.2rem;
+          color: $color-negro;
+         
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,173 @@
+@use "globals" as *;
+
+footer {
+    margin-top: 6rem;
+  width: 1510px;
+  height: 78px;
+  @include respond-to-small {
+    width: 395px;
+  }
+
+ section{
+    position: absolute;
+    bottom: 0px;
+    top: 1575px;
+    left: 645px;
+    @include respond-to-small {
+        bottom: 0px;
+        top: 2293px;
+        left: 175px;
+      }
+    
+  p {
+    color: $color-input;
+    font-family: $font-parrafos;
+  }
+  @include respond-to-small {
+ font-size: 0.7rem
+  }
+ }
+  div {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+    background-color: $color-negro;
+    div {
+      margin-top: 2rem;
+    }
+
+    div.uno {
+      img {
+        width: 32px;
+        height: 32px;
+        color: $color-input;
+        position: absolute;
+        bottom: 0px;
+        top: 1573px;
+        left: 60px;
+        @include respond-to-small {
+            width: 20px;
+            height: 20px;
+            color: $color-input;
+            position: absolute;
+            bottom: 0px;
+            top: 2293px;
+            left: 60px;
+             }
+      }
+    }
+    div.dos {
+      img {
+        width: 32px;
+        height: 32px;
+        color: $color-input;
+        position: absolute;
+        bottom: 0px;
+        top: 1573px;
+        left: 120px;
+        @include respond-to-small {
+            width: 20px;
+            height: 20px;
+            color: $color-input;
+            position: absolute;
+            bottom: 0px;
+            top: 2293px;
+            left: 30px;
+             }
+      }
+    }
+    div.tres {
+      img {
+        width: 32px;
+        height: 32px;
+        color: $color-input;
+        position: absolute;
+        bottom: 0px;
+        top: 1573px;
+        left: 180px;
+        @include respond-to-small {
+            width: 20px;
+            height: 20px;
+            color: $color-input;
+            position: absolute;
+            bottom: 0px;
+            top: 2293px;
+            left: 90px;
+             }
+      }
+    }
+  }
+}
+
+
+footer {
+    .registro{
+  margin-top: 6rem;
+  width: 1510px;
+  height: 78px;
+
+  section {
+    position: absolute;
+    bottom: 0px;
+    top: 949px;
+    left: 645px;
+
+    p {
+      color: $color-input;
+      font-family: $font-parrafos;
+    }
+  }
+
+  div {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-color: $color-negro;
+
+    div {
+      margin-top: 2rem;
+    }
+
+    .uno {
+      img {
+        width: 32px;
+        height: 32px;
+        color: $color-input;
+        position: absolute;
+        bottom: 0px;
+        top: 945px;
+        left: 60px;
+      }
+    }
+
+    .dos {
+      img {
+        width: 32px;
+        height: 32px;
+        color: $color-input;
+        position: absolute;
+        bottom: 0px;
+        top: 945px;
+        left: 120px;
+      }
+    }
+
+    .tres {
+      img {
+        width: 32px;
+        height: 32px;
+        color: $color-input;
+        position: absolute;
+        bottom: 0px;
+        top: 945px;
+        left: 180px;
+      }
+    }
+  }
+}
+}

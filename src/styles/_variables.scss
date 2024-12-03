@@ -1,0 +1,36 @@
+//colores
+$color-botones: #57ebb6;
+$color-input: #03facd;
+$color-border: rgb(247, 80, 164);
+$color-placeholder: #8d8d8d;
+$color-blanco: #fff;
+$color-negro: #000;
+$color-by: #03facd;
+$color-grandiente-fondo-medio: rgb(173, 253, 144);
+$color-grandiente-fondo-alto: rgb(171, 254, 222);
+$color-grandiente-fondo-bajo: rgb(254, 63, 167);
+$color-gradeinte1: rgb(251, 0, 0);
+$color-gradeinte2: rgb(254, 114, 0);
+$color-gradeinte3: rgb(255, 221, 3);
+$color-gradeinte4: rgb(0, 253, 8);
+$color-gradeinte5: rgb(0, 255, 255);
+$color-gradeinte6: #000cef;
+$color-gradeinte7: rgb(173, 0, 254);
+$color-gradeinte8: rgb(254, 0, 174);
+$color-gradeinte9: #f70004;
+
+// Tipografía
+$font-parrafos: "Comic Sans MS", sans-serif;
+$font-titulos: "Comic Sans MS", cursive, sans-serif;
+
+$breakpoints: (
+  "medium": (
+    min-width: 800px,
+  ),
+  "large": (
+    min-width: 1000px,
+  ),
+  "huge": (
+    min-width: 1200px,
+  ),
+);
