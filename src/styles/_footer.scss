@@ -103,17 +103,25 @@ footer {
 }
 
 
-footer {
-    .registro{
+footer.registro{
   margin-top: 6rem;
   width: 1510px;
   height: 78px;
+  @include respond-to-small {
+    width: 395px;
+    margin-top: 0rem;
+     }
 
   section {
     position: absolute;
     bottom: 0px;
-    top: 949px;
+    top: 943px;
     left: 645px;
+    @include respond-to-small {
+        
+        top: 805px;
+        left: 175px;
+         }
 
     p {
       color: $color-input;
@@ -140,8 +148,15 @@ footer {
         color: $color-input;
         position: absolute;
         bottom: 0px;
-        top: 945px;
+        top: 940px;
         left: 60px;
+        @include respond-to-small {
+            width: 20px;
+            height: 20px;
+            bottom: 0px;
+            top: 803px;
+            left: 60px;
+             }
       }
     }
 
@@ -152,8 +167,15 @@ footer {
         color: $color-input;
         position: absolute;
         bottom: 0px;
-        top: 945px;
+        top: 940px;
         left: 120px;
+        @include respond-to-small {
+            width: 20px;
+            height: 20px;
+            bottom: 0px;
+            top: 803px;
+            left: 30px;
+             }
       }
     }
 
@@ -164,10 +186,16 @@ footer {
         color: $color-input;
         position: absolute;
         bottom: 0px;
-        top: 945px;
+        top: 940px;
         left: 180px;
+        @include respond-to-small {
+            width: 20px;
+            height: 20px;
+            bottom: 0px;
+            top: 803px;
+            left: 90px;
+             }
       }
     }
   }
-}
 }
