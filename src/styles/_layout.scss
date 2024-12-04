@@ -31,25 +31,25 @@ body {
 
       h1 {
         font-family: $font-titulos;
-        font-size: 70px;
+        font-size: $font-size-h1-desk;
         text-shadow: 1px 1px 0px black, -1px -1px 0px black, 1px -1px 0px black,
           -1px -1px 2px rgba(0, 0, 0, 1), -1px 1px 0px black;
         text-align: center;
         @include respond-to-small {
-          font-size: 60px;
+          font-size: $font-size-h1-movil;
         }
       }
       h2 {
         margin-top: 2rem;
         font-family: $font-titulos;
-        font-size: 60px;
+        font-size: $font-size-h2-desk;
         color: $color-by;
         text-shadow: 1px 1px 0px $color-border, -1px -1px 0px $color-border,
           1px -1px 0px $color-border, -1px -1px 2px rgba(0, 0, 0, 1),
           -1px 1px 0px $color-border;
         text-align: center;
         @include respond-to-small {
-          font-size: 50px;
+          font-size: $font-size-h2-movil;
         }
       }
     }
@@ -141,8 +141,7 @@ body {
             margin-left: 2rem;
             &::before {
               content: "";
-              position: absolute;
-              bottom: 0px;
+             
               top: 920px;
               left: 33px;
               width: 8px;
@@ -183,8 +182,6 @@ body {
         margin-right: 3rem;
         margin-top: 5rem;
         @include respond-to-small {  
-          
-        margin-top: 5rem;
           margin-left: 1rem;
           }
    
@@ -211,7 +208,7 @@ body {
           
             &::before {
               content: "";
-              bottom: 0px;
+            
               top: 1820px;
               left: 33px;
               width: 8px;
@@ -281,11 +278,7 @@ main.registro {
     text-align: left;
     margin-left: 5rem;
     @include respond-to-small {  
-     
-      font-size: 1rem;
-      margin-bottom: 8px;
-      color: $color-negro;
-      text-align: left;
+      font-size: 1rem; 
       margin-left: 1rem;
         }
   }
@@ -307,8 +300,6 @@ main.registro {
     @include respond-to-small {  
      
       
-      padding: 12px;
-      margin-bottom: 15px;
       font-size: 0.8rem; 
       margin-left: 1rem;
         }
