@@ -136,3 +136,4 @@ En ["_mixins.scss"](styles/_mixins.scss) están los tamaños para implementar la
 ## 4. Enlaces de interés
 
 [Enlace a la página desplegada en GitHub Pages](https://luchernan.github.io/vite-project1/)
+[Figma](https://www.figma.com/design/toTQn1HGnD1L4an5Ra3Lmr/ProyectoLucas?node-id=0-1&t=R4WPblua0uOVvPNL-1)
